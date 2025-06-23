@@ -137,8 +137,8 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-EMAIL_HOST_USER = 'smtpmailjango@gmail.com'
-EMAIL_HOST_PASSWORD = 'glbl uvbm nktt zrec'
+EMAIL_HOST_USER = 'your_email@gmail.com' #place your email
+EMAIL_HOST_PASSWORD = 'App pass' # place app password here 
 
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER 
 
