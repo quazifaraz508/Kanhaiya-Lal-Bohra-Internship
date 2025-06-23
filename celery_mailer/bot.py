@@ -15,7 +15,7 @@ django.setup()
 # Import TelegramUser model
 from celery_mailer.models import TelegramUser
 
-TELEGRAM_TOKEN = "7411938343:AAGkeKU03nmncfidbsPEDGtYK3vqGZSJuog"
+TELEGRAM_TOKEN = "Your_Token" #I remove my bots token you can put yours
 
 def start(update, context):
     user = update.message.from_user
