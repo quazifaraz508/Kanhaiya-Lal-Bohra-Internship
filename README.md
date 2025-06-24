@@ -17,8 +17,8 @@ go to http://127.0.0.1:8000/student/api/
 
 ## POST /api/register/
 {
-  "username": "john",
-  "password": "123456",
+  "name": "john",
+  "roll_no": 123456,
   "email": "john@example.com"
 }
 
