@@ -38,7 +38,7 @@ EMAIL_HOST_PASSWORD=place_pass_without_space
 celery -A Main_project_intern worker --loglevel=info --pool=solo
 
 ##  Run Telegram bot (in another terminal)
-cd .\Main_project_intern\celery_mailer python celery_mailer/bot.py
+cd .\Main_project_intern\celery_mailer python bot.py
 
 ## Telegram Bot Flow
 User sends /start to your bot.
